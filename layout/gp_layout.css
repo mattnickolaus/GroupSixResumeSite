@@ -1,0 +1,86 @@
+/*
+	FILENAME		gp_layout.css
+	AUTHOR			Group 6
+	DATE			03/26/2024
+	DESCRIPTION		This CSS file contains layout information for group project pages.
+*/
+#sidebar {
+  width: 30%;
+  height: 100vh;
+}
+
+body nav {
+  position: fixed;
+  text-align: center;
+
+  img#logo {
+    width: 76px;
+    margin: 10px 10px 10px 10px;
+    float: left;
+  }
+
+  div#profile {
+    clear: left;
+    margin: auto;
+
+    img {
+      width: 55%;
+    }
+  }
+
+  div#socialMedia {
+    padding-top: 1em;
+    img {
+      width: 6%;
+    }
+  }
+
+  div#contactInfo {
+    padding-top: 3%;
+    padding-left: 13%;
+    text-align: left;
+
+  }
+}
+
+body article {
+  width: 64%;
+  float: right;
+  margin-top: 2em;
+}
+
+#nav-sidebar{
+  position: fixed;
+  top: 20%;
+  left: 30%;
+  height: 580px;
+  width: 95px;
+}
+
+#about-tech-drawing {
+  width: 40%;
+}
+
+#about-me-opening {
+  display: flex;
+  flex-direction: row;
+}
+
+#about-me-opening >*{
+  margin-right: 40px;
+}
+
+
+@media (max-width: 900px) {
+  #sidebar {
+    width: 0;
+    display: none;
+  }
+  #nav-sidebar {
+    left: 0;
+  }
+  body article {
+    width: 80%;
+  }
+
+}

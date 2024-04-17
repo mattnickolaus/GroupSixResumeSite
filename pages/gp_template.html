@@ -1,0 +1,308 @@
+<!--
+	FILENAME		gp_template.HTML
+	AUTHOR			Group 6
+	DATE			03/26/2024
+	DESCRIPTION		This is a template HTML file marking the contents of a complete resume page.
+-->
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Group 6 Resumes</title>
+		<link href="/styles/gp_reset.css" rel="stylesheet"/> <!-- CSS reset file. -->
+		<link href="/styles/gp_styles.css" rel="stylesheet"/> <!-- CSS file for fonts, colors, etc. -->
+		<link href="/layout/gp_layout.css" rel="stylesheet"/> <!-- CSS file for layout. -->
+		<script src="/js/gp_script.js"></script>
+
+		<!-- Adds font support-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+
+		<meta charset="utf-8" />
+		
+	</head>
+	
+	<body>
+		
+		<nav id="sidebar">
+		
+			<img src="/images/group-six-logo.png" id="logo"/>
+			<div id="profile">
+				<img src="/images/generic-profile.png"/>
+				<p id = "name">Your Name</p>
+				<p id = "major">Information Science Technology</p>
+				<p id = "uni">The Pennsylvania State University</p>
+				
+			</div>
+			
+			<div id="socialMedia">
+				<a href="https://www.linkedin.com/" target=”_blank”><img src="/images/icon_linkd.png"/></a>
+				<a href="https://github.com/" target=”_blank”><img src="/images/icon_githb.png"/></a>
+				<a href="https://www.youtube.com/" target=”_blank”><img src="/images/icon_youtb.png"/></a>
+				<a href="https://twitter.com/home" target=”_blank”><img src="/images/icon_twitr.png"/></a>
+				
+			</div>
+			
+			<div id="contactInfo">
+				<ul>
+					<li class = "contact-info-label">Phone:</li>
+					<li class = "contact-info">(###) ###-### </li>
+					<li><br></li>
+					<li class = "contact-info-label">Email:</li>
+					<li class = "contact-info">_________@EMAIL.com </li>
+					<li><br></li>
+					<li class = "contact-info-label">Location: </li>
+					<li class = "contact-info">Nibelheim, Amestris </li>
+				</ul>
+			</div>
+
+			<hr id = "sidebar-divider">
+
+			<a class="resume-download" href="/Resumes/M.Nickolaus-SampleResume.pdf"
+			   download = "SampleResume2024">Download Resume</a>
+		</nav>
+
+		<nav id="nav-sidebar">
+			<div id="about-nav">
+				<a href="#aboutMe">
+					<img src="/images/icon_about.png"/>
+					<p>About Me</p>
+				</a>
+			</div>
+			<hr>
+			<div id="experience-nav">
+				<a href="#educationAndExperience">
+					<img src="/images/icon_experience.png"/>
+					<p>Experience</p>
+				</a>
+			</div>
+			<hr>
+			<div id="portfolio-nav">
+				<a href="#portfolio-section">
+					<img src="/images/icon_portfolio.png"/>
+					<p>Portfolio</p>
+				</a>
+			</div>
+			<hr>
+			<div id="skill-nav">
+				<a href="#skills">
+					<img src="/images/icon_skills.png"/>
+					<p>Skills</p>
+				</a>
+			</div>
+			<hr>
+			<div id="contact-nav">
+				<a href="#contactForm">
+					<img src="/images/icon_at.png"/>
+					<p>Contact</p>
+				</a>
+			</div>
+		</nav>
+
+		<div id="scrolling-body">
+
+
+			<article id="aboutMe">
+				<br>
+				<h1>About Me</h1>
+				<br>
+
+				<div id="about-me-opening">
+					<span>
+						<p class="about-me-body">
+							Hello! I'm Matt Nickolaus, a passionate student at Penn State University pursuing a degree in
+							Information Science and Technology. With a keen interest in leveraging technology to solve
+							real-world problems, I'm dedicated to expanding my knowledge and skills in this dynamic field.
+						</p>
+						<br>
+						<p class="about-me-body">
+							Throughout my academic journey, I've delved into various aspects of information science and
+							technology, including database management, programming languages, cybersecurity, and user
+							experience design. I thrive in collaborative environments where creativity and critical thinking
+							are encouraged, and I'm always eager to tackle new challenges head-on.
+						</p>
+					</span>
+					<img id="about-tech-drawing" src="/images/About-Me-Tech-Drawing.png"/>
+
+				</div>
+
+				<p class="about-me-body">
+					Throughout my academic journey, I've delved into various aspects of information science and
+					technology, including database management, programming languages, cybersecurity, and user
+					experience design. I thrive in collaborative environments where creativity and critical thinking
+					are encouraged, and I'm always eager to tackle new challenges head-on.
+				</p>
+				<p class="about-me-body">
+					Outside of the classroom, I actively seek opportunities to apply my learning through internships,
+					projects, and extracurricular activities. Whether it's developing innovative software solutions,
+					conducting research to explore emerging technologies, or participating in hackathons to solve
+					complex problems, I'm constantly seeking ways to enhance my expertise and make a positive impact.
+				</p>
+				<p class="about-me-body">
+					Driven by a curiosity for how technology shapes our world, I am committed to continuous learning
+					and growth, striving to stay updated with the latest industry trends and advancements. I am excited
+					about the prospect of contributing my skills and enthusiasm to a dynamic team and making meaningful
+					contributions to the ever-evolving landscape of information science and technology.
+				</p>
+
+				<div id="profileQuote">
+
+					<p id="about-me-quote">
+						Thank you for visiting my website. Feel free to explore my portfolio and reach out if you'd
+						like to connect or collaborate on any projects.
+					</p>
+
+					<img src="profile.png" alt="___'s Profile">
+				</div>
+
+			</article>
+
+			<article id="educationAndExperience">
+
+				<h1>Education & Experience</h1>
+				<img src="icon_education.png" />
+
+				<h2>Education</h2>
+				<ul id="education">
+					<li><b>Education 1</b></li>
+					<li><b>Education 2</b></li>
+					<li><b>Education 3</b></li>
+				</ul>
+
+				<h2>Experience</h2>
+				<ul id="jobs" />
+					<li>
+						<h3>IT Business Analyst Intern</h3>
+						<h4>Saint Luke’s Hospital</h4>
+
+						In omni morali systemate, quod hactenus occurrit, semper monui, Auctorem aliquandiu
+						ordinario modo ratiocinandi procedere, ac constituisse Deum esse, vel circa res humanas
+						animadversiones facere; ubi subito miror, quod pro vulgari copulationum propositionum est,
+						neque convenio propositioni non cohaerere cum debeat aut non debeat.
+
+						<img src="icon_job_1.png" />
+					</li>
+
+					<li>
+						<h3>Multimedia Intern</h3>
+						<h4>IT Business Analyst Intern</h4>
+
+						In omni morali systemate, quod hactenus occurrit, semper monui, Auctorem aliquandiu
+						ordinario modo ratiocinandi procedere, ac constituisse Deum esse, vel circa res humanas
+						animadversiones facere; ubi subito miror, quod pro vulgari copulationum propositionum est,
+						neque convenio propositioni non cohaerere cum debeat aut non debeat.
+
+						<img src="icon_job_2.png" />
+					</li>
+
+				</ul>
+
+				<h2>Projects</h2>
+				<ul id="projects">
+					<li>
+						Application Development - PSU Coursework, Group Leader
+						<ul>
+							<li>In omni morali systemate, quod hactenus occurrit, semper monui, Auctorem aliquandiu
+							ordinario modo ratiocinandi procedere, ac constituisse Deum esse, vel circa res humanas
+							animadversiones facere; ubi subito miror, quod pro vulgari copulationum propositionum est,
+							neque convenio propositioni non cohaerere cum debeat aut non debeat.</li>
+
+							<li>In omni morali systemate, quod hactenus occurrit, semper monui, Auctorem aliquandiu
+							ordinario modo ratiocinandi procedere, ac constituisse Deum esse, vel circa res humanas
+							animadversiones facere; ubi subito miror, quod pro vulgari copulationum propositionum est,
+							neque convenio propositioni non cohaerere cum debeat aut non debeat.</li>
+
+						</ul>
+
+					</li>
+
+					<li>
+						Networking and Telecommunications - PSU Coursework, Group Leader
+						<ul>
+							<li>In omni morali systemate, quod hactenus occurrit, semper monui, Auctorem aliquandiu
+							ordinario modo ratiocinandi procedere, ac constituisse Deum esse, vel circa res humanas
+							animadversiones facere; ubi subito miror, quod pro vulgari copulationum propositionum est,
+							neque convenio propositioni non cohaerere cum debeat aut non debeat.</li>
+
+							<li>In omni morali systemate, quod hactenus occurrit, semper monui, Auctorem aliquandiu
+							ordinario modo ratiocinandi procedere, ac constituisse Deum esse, vel circa res humanas
+							animadversiones facere; ubi subito miror, quod pro vulgari copulationum propositionum est,
+							neque convenio propositioni non cohaerere cum debeat aut non debeat.</li>
+
+						</ul>
+
+					</li>
+
+					<li>
+						Organization of Data & Database Management - PSU Coursework, Group Member
+						<ul>
+							<li>In omni morali systemate, quod hactenus occurrit, semper monui, Auctorem aliquandiu
+							ordinario modo ratiocinandi procedere, ac constituisse Deum esse, vel circa res humanas
+							animadversiones facere; ubi subito miror, quod pro vulgari copulationum propositionum est,
+							neque convenio propositioni non cohaerere cum debeat aut non debeat.</li>
+
+							<li>In omni morali systemate, quod hactenus occurrit, semper monui, Auctorem aliquandiu
+							ordinario modo ratiocinandi procedere, ac constituisse Deum esse, vel circa res humanas
+							animadversiones facere; ubi subito miror, quod pro vulgari copulationum propositionum est,
+							neque convenio propositioni non cohaerere cum debeat aut non debeat.</li>
+
+						</ul>
+
+					</li>
+
+				</ul>
+
+			</article>
+
+			<article id="portfolio-section">
+
+				<img src="icon_portfolio.png"/>
+				<h1>Portfolio</h1>
+				<ul id="portfolio-list">
+					<li>In omni morali systemate, quod hactenus occurrit, semper monui, Auctorem aliquandiu
+					ordinario modo ratiocinandi procedere, ac constituisse Deum esse, vel circa res humanas
+					animadversiones facere; ubi subito miror, quod pro vulgari copulationum propositionum est,
+					neque convenio propositioni non cohaerere cum debeat aut non debeat.</li>
+					<li>In omni morali systemate, quod hactenus occurrit, semper monui, Auctorem aliquandiu
+					ordinario modo ratiocinandi procedere, ac constituisse Deum esse, vel circa res humanas
+					animadversiones facere; ubi subito miror, quod pro vulgari copulationum propositionum est,
+					neque convenio propositioni non cohaerere cum debeat aut non debeat.</li>
+					<li>In omni morali systemate, quod hactenus occurrit, semper monui, Auctorem aliquandiu
+					ordinario modo ratiocinandi procedere, ac constituisse Deum esse, vel circa res humanas
+					animadversiones facere; ubi subito miror, quod pro vulgari copulationum propositionum est,
+					neque convenio propositioni non cohaerere cum debeat aut non debeat.</li>
+
+				</ul>
+			</article>
+
+			<article id="skills">
+
+				<img src="icon_skills.png"/>
+				<h1>Skills</h1>
+				<ul id="skills-list">
+					<li>Coding Knowledge <img src="icon_bar.png"/> </li>
+					<li>Java Unified Modeling Language <img src="icon_bar.png"/> </li>
+					<li>Project Planning (MS Project) <img src="icon_bar.png"/> </li>
+					<li>Entity Relationship Diagramming <img src="icon_bar.png"/> </li>
+					<li>Risk Analysis <img src="icon_bar.png"/> </li>
+					<li>UX Design <img src="icon_bar.png"/> </li>
+					<li>JavaScript <img src="icon_bar.png"/> </li>
+					<li>HTML & CSS <img src="icon_bar.png"/> </li>
+					<li>SQL <img src="icon_bar.png"/> </li>
+					<li>C++ <img src="icon_bar.png"/> </li>
+					<li>Python <img src="icon_bar.png"/> </li>
+
+				</ul>
+
+			</article>
+
+			<article id="contactForm">
+				<h1>Contact Form</h1>
+			</article>
+		</div>
+		
+	</body>
+	
+</html>

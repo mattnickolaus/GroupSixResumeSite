@@ -1,0 +1,154 @@
+/*
+	FILENAME		gp_styles.css
+	AUTHOR			Group 6
+	DATE			03/26/2024
+	DESCRIPTION		This CSS file contains font and color information for group project pages.
+*/
+
+
+:root {
+  /*Color Pallet Variables */
+  --dark-blue: #304C89;
+  --medium-blue: #648DE5;
+  --light-blue: #9EB7E5;
+  --dark-tan: #CDC392;
+  --light-tan: #F0EDDC;
+
+
+  /*Fonts weights for mplus font*/
+  --mplus-thin: 100;
+  --mplus-light: 300;
+  --mplus-regular: 400;
+  --mplus-medium: 500;
+  --mplus-bold: 700;
+  --mplus-extrabold: 800;
+  --mplus-black: 900;
+}
+
+
+/*Styling for sidebar element*/
+#sidebar {
+  background-color: var(--dark-tan);
+}
+
+body {
+  background-color: var(--light-tan);
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+#profile {
+  color: var(--dark-blue);
+}
+
+#name{
+  margin-top: 1em;
+  font-weight: var(--mplus-extrabold);
+  font-size: 2.3em;
+}
+
+#major {
+  margin-top: 1.2em;
+  font-weight: var(--mplus-medium);
+  font-size: 1.8em;
+  line-height: 1.2em;
+}
+
+#uni {
+  margin-top: .6em;
+  font-weight: var(--mplus-light);
+  font-size: 1.4em;
+}
+
+#socialMedia {
+  a > img:hover {
+    background-color: var(--dark-blue);
+    box-shadow: 6px 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+  }
+}
+
+#contactInfo {
+  color: var(--dark-blue);
+  font-size: 1.4em;
+  li {
+    margin-top: .5em;
+  }
+  .contact-info-label {
+    font-weight: var(--mplus-extrabold);
+  }
+  .contact-info {
+    font-weight: var(--mplus-medium);
+  }
+}
+
+#sidebar-divider {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  height: 1px;
+  width: 85%;
+  background-color: var(--dark-blue);
+  color: var(--dark-blue);
+  border-color: var(--dark-blue);
+}
+
+.resume-download {
+  color: var(--medium-blue);
+  font-size: 1.2em;
+  font-weight: var(--mplus-medium);
+}
+
+.resume-download:hover {
+  font-weight: var(--mplus-bold);
+  text-decoration: underline;
+}
+
+/*Styling for Vertical Nav Bar */
+#nav-sidebar {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: var(--dark-tan);
+  div {
+    margin-top: 1em;
+    a {
+      font-weight: var(--mplus-extrabold);
+      color: var(--light-tan);
+
+      img {
+        width: 65px;
+      }
+
+    }
+  }
+  hr {
+    height: 1px;
+    width: 80%;
+    background-color: var(--light-tan);
+    color: var(--light-tan);
+    border-color: var(--light-tan);
+  }
+
+}
+
+#nav-sidebar > div:hover {
+  text-shadow: -6px 4px 5px rgba(0, 0, 0, 0.25);
+}
+
+
+/* Everything Below is styling for the Main Article Element*/
+
+body > div > article > h1 {
+  font-size: 2.3em;
+  font-weight: var(--mplus-extrabold);
+  color: var(--light-blue);
+}
+
+
+
+.about-me-body {
+  font-weight: var(--mplus-medium);
+  color: var(--dark-blue);
+  font-size: 1.2em;
+  line-height: 1.3em;
+}
+
+
