@@ -58,7 +58,9 @@ body article {
 }
 
 #about-tech-drawing {
-  width: 40%;
+  width: 35%;
+  height: 35%;
+  margin-right: 10%;
 }
 
 #about-me-opening {
@@ -66,7 +68,7 @@ body article {
   flex-direction: row;
 }
 
-#about-me-opening >*{
+#about-me-opening > span{
   margin-right: 40px;
 }
 
@@ -82,5 +84,12 @@ body article {
   body article {
     width: 80%;
   }
+  #about-me-opening {
+    display: block;
+    #about-tech-drawing {
+      width: 75%;
+    }
+  }
+
 
 }

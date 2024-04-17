@@ -142,13 +142,18 @@ body > div > article > h1 {
   color: var(--light-blue);
 }
 
+#about-me-opening > span > h1 {
+  font-size: 2.3em;
+  font-weight: var(--mplus-extrabold);
+  color: var(--light-blue);
+}
 
 
 .about-me-body {
   font-weight: var(--mplus-medium);
   color: var(--dark-blue);
   font-size: 1.2em;
-  line-height: 1.3em;
+  line-height: 1.6em;
 }
 
 
