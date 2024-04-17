@@ -156,4 +156,11 @@ body > div > article > h1 {
   line-height: 1.6em;
 }
 
+#about-me-quote {
+  font-weight: var(--mplus-extrabold);
+  color: var(--dark-blue);
+  font-size: 1.2em;
+  line-height: 1.6em;
+}
+
 

@@ -72,6 +72,28 @@ body article {
   margin-right: 40px;
 }
 
+#profileQuote {
+  display: flex;
+  flex-direction: row;
+}
+
+
+#profileQuote > #profile-quote-span {
+  margin-right: 40px;
+  width: 50%;
+}
+
+#profileQuote > img {
+  width: 15%;
+  height: 15%;
+  margin-right: 30px;
+}
+
+#spacer-quote {
+  width: 10%;
+}
+
+
 
 @media (max-width: 900px) {
   #sidebar {
@@ -90,6 +112,11 @@ body article {
       width: 75%;
     }
   }
-
+  #profileQuote {
+    display: block;
+    img {
+      width: 60%;
+    }
+  }
 
 }
