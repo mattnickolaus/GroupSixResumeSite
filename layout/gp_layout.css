@@ -25,6 +25,7 @@ body nav {
 
     img {
       width: 55%;
+      border-radius: 50%;
     }
   }
 
@@ -87,6 +88,7 @@ body article {
   width: 15%;
   height: 15%;
   margin-right: 30px;
+  border-radius: 50%;
 }
 
 #spacer-quote {
@@ -119,6 +121,36 @@ body article {
   }
 }
 
+#job-experiences {
+column-width: 30em;
+  column-rule: 1px solid var(--dark-blue);
+}
+
+#job1, #job2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 30px;
+  img {
+    width: 10em;
+  }
+}
+
+#portfolio-images {
+  img {
+    padding: 10px;
+  }
+}
+
+#links-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  a > img{
+    width: 1.5em;
+    margin-left: 10px;
+  }
+}
 
 @media (max-width: 900px) {
   #sidebar {

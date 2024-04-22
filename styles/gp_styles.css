@@ -163,7 +163,7 @@ body > div > article > h1 {
   line-height: 1.6em;
 }
 
-#article-dividers {
+.article-dividers {
   height: 1px;
   margin-right: 5%;
   width: 95%;
@@ -221,4 +221,77 @@ body > div > article > h1 {
   }
 }
 
+
+.time-frame {
+  font-weight: var(--mplus-medium);
+  color: var(--dark-tan);
+  font-size: 1em;
+  line-height: 2em;
+  text-align: center;
+  padding: 3px;
+  border: 2px solid var(--dark-tan);
+  border-radius: 6px;
+}
+
+.job-titles {
+  font-weight: var(--mplus-extrabold);
+  color: var(--dark-blue);
+  font-size: 2em;
+  line-height: 1.6em;
+}
+
+.organization-name {
+  font-weight: var(--mplus-medium);
+  color: var(--light-blue);
+  font-size: 1.2em;
+  line-height: 1em;
+}
+
+.job-description {
+  font-weight: var(--mplus-medium);
+  color: var(--dark-blue);
+  font-size: 1em;
+  line-height: 1.2em;
+}
+
+#project-header {
+  font-weight: var(--mplus-extrabold);
+  font-size: 1.8em;
+  color: var(--dark-blue);
+  line-height: 1.8em;
+}
+
+.list-header {
+  font-weight: var(--mplus-bold);
+  color: var(--dark-blue);
+  font-size: 1.1em;
+  line-height: 1.4em;
+}
+.project-bulletpoints {
+  list-style-type: disc;
+  margin-left: 3em;
+  margin-right: 3em;
+  font-weight: var(--mplus-medium);
+  color: var(--dark-blue);
+  font-size: 1em;
+  line-height: 1.4em;
+}
+
+
+#portfolio-section > h1 {
+  line-height:2em;
+}
+
+#links-row {
+  span {
+    font-weight: var(--mplus-extrabold);
+    font-size: 1.2em;
+    color: var(--dark-blue);
+    line-height: 1.2em;
+  }
+  a > img:hover {
+    box-shadow: 6px 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+  }
+}
 
