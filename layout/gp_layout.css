@@ -93,6 +93,31 @@ body article {
   width: 10%;
 }
 
+#education-title {
+  display: flex;
+  flex-direction: row;
+  img {
+    height: 4.5em;
+  }
+}
+
+#university-education {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  img {
+    height: 10em;
+  }
+}
+
+#experience-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  img {
+    height: 4.5em;
+  }
+}
 
 
 @media (max-width: 900px) {
