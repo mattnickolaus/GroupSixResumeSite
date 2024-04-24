@@ -1,0 +1,53 @@
+/*
+	FILENAME		index_styles.css
+	AUTHOR			Group 6
+	DATE			04/24/2024
+	DESCRIPTION		This CSS file contains font and color information for group project pages.
+*/
+
+
+:root {
+    /*Color Pallet Variables */
+    --dark-blue: #304C89;
+    --medium-blue: #648DE5;
+    --light-blue: #9EB7E5;
+    --dark-tan: #CDC392;
+    --light-tan: #F0EDDC;
+
+
+    /*Fonts weights for mplus font*/
+    --mplus-thin: 100;
+    --mplus-light: 300;
+    --mplus-regular: 400;
+    --mplus-medium: 500;
+    --mplus-bold: 700;
+    --mplus-extrabold: 800;
+    --mplus-black: 900;
+}
+
+
+
+body {
+    background-color: var(--light-tan);
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+#resume-nav-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+img#logo {
+    width: 76px;
+    margin: 10px 10px 10px 10px;
+    float: left;
+}
+
+#title-page-container {
+    display: flex;
+    justify-content: center;
+    img {
+        width: 65%;
+    }
+}
