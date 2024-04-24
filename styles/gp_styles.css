@@ -295,6 +295,34 @@ body > div > article > h1 {
   }
 }
 
+/* Skills styling*/
+#skills > h1 {
+  line-height: 2em;
+}
+
+.skills-titles {
+  font-weight: var(--mplus-extrabold);
+  font-size: 1.8em;
+  color: var(--dark-blue);
+  line-height: 1.8em;
+}
+
+.list-skills {
+  font-weight: var(--mplus-medium);
+  font-size: 1.4em;
+  color: var(--dark-blue);
+  line-height: 1.6em;
+}
+
+.knowledge-list > span {
+  margin-left: 1em;
+}
+
+#code-section-body > p {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
 
 /*Email form styling*/
 #contactForm > h1 {

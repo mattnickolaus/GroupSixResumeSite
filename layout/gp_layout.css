@@ -177,6 +177,37 @@ column-width: 30em;
   margin-right: 20px;
 }
 
+#skills-container {
+  column-width: 30em;
+}
+
+.column-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  img {
+    height: 4.5em;
+  }
+  span {
+    margin-left: 1em;
+  }
+}
+
+.knowledge-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  img {
+    height: 2.2em;
+  }
+}
+
+#code-section-body {
+  img {
+    height: 1.7em;
+  }
+}
 
 
 @media (max-width: 900px) {
@@ -200,6 +231,12 @@ column-width: 30em;
     display: block;
     img {
       width: 60%;
+    }
+  }
+
+  #code-section-body {
+    img {
+      width: 90%;
     }
   }
 
