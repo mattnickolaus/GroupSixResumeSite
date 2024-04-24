@@ -7,6 +7,7 @@
 #sidebar {
   width: 30%;
   height: 100vh;
+  box-shadow: 5px 0 5px rgba(0, 0, 0, 0.25);
 }
 
 body nav {
@@ -56,6 +57,7 @@ body article {
   left: 30%;
   height: 580px;
   width: 95px;
+  box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.25);
 }
 
 #about-tech-drawing {
@@ -151,6 +153,31 @@ column-width: 30em;
     margin-left: 10px;
   }
 }
+
+/* Email Form Layout*/
+.inline-field {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+
+
+#subject-group, #message-group {
+  display: flex;
+  flex-direction: column;
+  max-width: 720px;
+}
+
+#name-email {
+  display: flex;
+  flex-direction: row;
+}
+
+#name-group {
+  margin-right: 20px;
+}
+
+
 
 @media (max-width: 900px) {
   #sidebar {

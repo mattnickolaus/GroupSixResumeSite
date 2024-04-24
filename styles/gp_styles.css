@@ -295,3 +295,43 @@ body > div > article > h1 {
   }
 }
 
+
+/*Email form styling*/
+#contactForm > h1 {
+  line-height: 2em;
+}
+
+#fullName, #email, #subject, #message {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: var(--mplus-medium);
+  color: var(--dark-blue);
+  border-radius: 8px;
+  background-color: white;
+  margin-top: 5px;
+}
+
+.form-labels {
+  font-weight: var(--mplus-bold);
+  color: var(--dark-blue);
+  margin-top: 5px;
+}
+
+#submit {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: var(--mplus-extrabold);
+  font-size: 1.1em;
+  color: white;
+  background-color: var(--dark-tan);
+  border-radius: 20px;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  height: 50px;
+  width: 150px;
+}
+
+#submit:hover {
+  cursor: pointer;
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.25);
+  color: var(--dark-blue);
+}
