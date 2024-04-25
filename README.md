@@ -2,6 +2,8 @@
 
 For this group project assignment Group 6 will be using this repository to create a resume website that will host all 5 group member's resumes. Using web design methods that we have learned throughout this course we hope to create an interactive and aesthetically pleasing UX experience for viewing our experience and qualifications. 
 
+
+https://mattnickolaus.github.io/GroupSixResumeSite/
 ___
 
 ## Assigned Tasks 👍
