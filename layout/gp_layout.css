@@ -140,6 +140,7 @@ column-width: 30em;
 
 #portfolio-images {
   img {
+    max-width: 40%;
     padding: 10px;
   }
 }

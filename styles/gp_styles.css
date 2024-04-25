@@ -44,10 +44,11 @@ body {
   margin-top: 1em;
   font-weight: var(--mplus-extrabold);
   font-size: 2.3em;
+  line-height: 1.2em;
 }
 
 #major {
-  margin-top: 1.2em;
+  margin-top: .5em;
   font-weight: var(--mplus-medium);
   font-size: 1.8em;
   line-height: 1.2em;
