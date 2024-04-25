@@ -32,22 +32,201 @@ body {
     font-family: "M PLUS Rounded 1c", sans-serif;
 }
 
-#resume-nav-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+#main-nav {
+    overflow: hidden;
+
 }
+
+#resume-nav-container {
+    margin-top: 2%;
+    margin-right: 4%;
+    float: right;
+    overflow: hidden;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+#resume-nav-container .dropbtn{
+    font-size: 1.8em;
+    font-weight: var(--mplus-extrabold);
+    border: none;
+    outline: none;
+    color: var(--dark-blue);
+    padding: 15px 20px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+#resume-nav-container:hover .dropbtn {
+    background-color: rgba(205, 195, 146, 60);
+}
+
+/* Dropdown content (hidden by default)*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(205, 195, 146, 60);
+    min-width: 163px;
+    z-index: 1;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/*Links inside the dropdown*/
+.dropdown-content a{
+    float: none;
+    color: var(--dark-blue);
+    font-weight: var(--mplus-bold);
+    font-size: 1.1em;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+/*Add hover effect to dropdown links on hover*/
+.dropdown-content a:hover {
+    text-decoration: underline;
+}
+
+/*Show the dropdown menu on hover*/
+#resume-nav-container:hover .dropdown-content {
+    display: block;
+}
+
 
 img#logo {
     width: 76px;
-    margin: 10px 10px 10px 10px;
+    margin: 20px 20px 20px 20px;
     float: left;
 }
+
+
 
 #title-page-container {
     display: flex;
     justify-content: center;
-    img {
+    margin-top: 4%;
+    #home-title-image {
         width: 65%;
     }
 }
+
+#home-image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    #computer-art {
+        width: 50%;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        border-bottom: 0;
+    }
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+
+
+#title-section {
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+
+
+#home-bottom-container {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0;
+    background-color: var(--dark-tan);
+    text-align: center;
+    padding-bottom: 4em;
+
+    h1 {
+        color: var(--dark-blue);
+        font-weight: var(--mplus-extrabold);
+        font-size: 3em;
+        line-height: 1.5em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    #intro-text-container {
+        width: 700px;
+        margin: 0 auto;
+
+    }
+    #intro-text-container > span {
+        color: var(--dark-blue);
+        font-weight: var(--mplus-medium);
+        font-size: 1.5em;
+        line-height: 2em;
+    }
+
+    h2 {
+        color: var(--dark-blue);
+        font-weight: var(--mplus-extrabold);
+        font-size: 3.2em;
+        line-height: 1.5em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+}
+
+#group-mates-container {
+    background-color: var(--light-tan);
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 50px;
+    box-shadow: 24px 21px 16px 17px rgba(0,0,0,0.25);
+    padding-bottom: 10px;
+}
+
+.group-rows {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.group-mate {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20%;
+}
+
+#group-mate-top-right, #group-mate-bottom-right {
+    margin-right: 20%;
+}
+
+.group-mate > a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    img {
+        border-radius: 50%;
+        width: 100%;
+    }
+}
+
+.group-mate-name {
+    font-weight: var(--mplus-extrabold);
+    font-size: 1.8em;
+    line-height: 1.5em;
+    color: var(--dark-blue);
+}
+
+.group-mate-major {
+    font-weight: var(--mplus-medium);
+    font-size: 1.2em;
+    line-height: 1.2em;
+    color: var(--dark-blue);
+}
+
+@media (max-width: 900px) {
+
+}
+
