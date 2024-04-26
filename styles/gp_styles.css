@@ -41,21 +41,21 @@ body {
 }
 
 #name{
-  margin-top: 1em;
+  margin-top: 2%;
   font-weight: var(--mplus-extrabold);
   font-size: 2.3em;
   line-height: 1.2em;
 }
 
 #major {
-  margin-top: .5em;
+  margin-top: 1%;
   font-weight: var(--mplus-medium);
   font-size: 1.8em;
   line-height: 1.2em;
 }
 
 #uni {
-  margin-top: .6em;
+  margin-top: 1%;
   font-weight: var(--mplus-light);
   font-size: 1.4em;
 }
@@ -69,10 +69,11 @@ body {
 }
 
 #contactInfo {
+  margin-top: 1%;
   color: var(--dark-blue);
   font-size: 1.4em;
   li {
-    margin-top: .5em;
+    margin-top: 2%;
   }
   .contact-info-label {
     font-weight: var(--mplus-extrabold);
@@ -84,7 +85,7 @@ body {
 
 #sidebar-divider {
   margin-top: 4%;
-  margin-bottom: 4%;
+  margin-bottom: 2%;
   height: 1px;
   width: 85%;
   background-color: var(--dark-blue);

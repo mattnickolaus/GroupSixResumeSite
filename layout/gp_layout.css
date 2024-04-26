@@ -8,7 +8,10 @@
   width: 30%;
   height: 100vh;
   box-shadow: 5px 0 5px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
 }
+
+
 
 body nav {
   position: fixed;
@@ -41,12 +44,11 @@ body nav {
     padding-top: 3%;
     padding-left: 13%;
     text-align: left;
-
   }
 }
 
 body article {
-  width: 64%;
+  width: 62%;
   float: right;
   margin-top: 2em;
 }
