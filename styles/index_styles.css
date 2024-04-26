@@ -30,6 +30,8 @@
 body {
     background-color: var(--light-tan);
     font-family: "M PLUS Rounded 1c", sans-serif;
+    width: 90%;
+    margin: 0 auto;
 }
 
 #main-nav {
@@ -144,7 +146,7 @@ img#logo {
     background-color: var(--dark-tan);
     text-align: center;
     padding-bottom: 4em;
-
+    border-radius: 40px;
     h1 {
         color: var(--dark-blue);
         font-weight: var(--mplus-extrabold);

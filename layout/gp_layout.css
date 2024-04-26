@@ -133,6 +133,7 @@ column-width: 30em;
   flex-direction: row;
   align-items: center;
   padding: 30px;
+  overflow: hidden;
   img {
     width: 10em;
   }

@@ -238,7 +238,7 @@ body > div > article > h1 {
   font-weight: var(--mplus-extrabold);
   color: var(--dark-blue);
   font-size: 2em;
-  line-height: 1.6em;
+  line-height: 1.2em;
 }
 
 .organization-name {

@@ -1,0 +1,373 @@
+<!--
+	FILENAME		gp_template.HTML
+	AUTHOR			Group 6 - Dhruv Modi Page
+	DATE			03/26/2024
+	DESCRIPTION		This is a template HTML file marking the contents of a complete resume page.
+-->
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Group 6 Resumes</title>
+		<link href="styles/gp_reset.css" rel="stylesheet"/> <!-- CSS reset file. -->
+		<link href="styles/gp_styles.css" rel="stylesheet"/> <!-- CSS file for fonts, colors, etc. -->
+		<link href="layout/gp_layout.css" rel="stylesheet"/> <!-- CSS file for layout. -->
+		<script src="js/gp_script.js" async></script>
+
+		<!-- Adds font support-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+
+		<meta charset="utf-8" />
+		
+	</head>
+	
+	<body>
+		
+		<nav id="sidebar">
+			<a href="index.html"><img src="images/group-six-logo.png" id="logo"/></a>
+			<div id="profile">
+				<img src="images/DMPSUheadshot.png"/>
+				<p id = "name">Dhruv Modi</p>
+				<p id = "major">Information Science Technology</p>
+				<p id = "uni">The Pennsylvania State University</p>
+				
+			</div>
+			
+			<div id="socialMedia">
+				<a href="https://www.linkedin.com/" target=”_blank”><img src="images/icon_linkd.png"/></a>
+				<a href="https://github.com/" target=”_blank”><img src="images/icon_githb.png"/></a>
+				<a href="https://www.youtube.com/" target=”_blank”><img src="images/icon_youtb.png"/></a>
+				<a href="https://twitter.com/home" target=”_blank”><img src="images/icon_twitr.png"/></a>
+				
+			</div>
+			
+			<div id="contactInfo">
+				<ul>
+					<li class = "contact-info-label">Phone:</li>
+					<li class = "contact-info">(267) 664-2584 </li>
+					<li><br></li>
+					<li class = "contact-info-label">Email:</li>
+					<li class = "contact-info">dhruvmodi1224@gmail.com </li>
+					<li><br></li>
+					<li class = "contact-info-label">Location: </li>
+					<li class = "contact-info">Souderton, PA </li>
+				</ul>
+			</div>
+
+			<hr id = "sidebar-divider">
+
+			<a class="resume-download" href="Resumes/dmodi-resume-2023.pdf"
+			   download = "SampleResume2024">Download Resume</a>
+		</nav>
+
+		<nav id="nav-sidebar">
+			<div id="about-nav">
+				<a href="#aboutMe">
+					<img src="images/icon_about.png"/>
+					<p>About Me</p>
+				</a>
+			</div>
+			<hr>
+			<div id="experience-nav">
+				<a href="#educationAndExperience">
+					<img src="images/icon_experience.png"/>
+					<p>Experience</p>
+				</a>
+			</div>
+			<hr>
+			<div id="portfolio-nav">
+				<a href="#portfolio-section">
+					<img src="images/icon_portfolio.png"/>
+					<p>Portfolio</p>
+				</a>
+			</div>
+			<hr>
+			<div id="skill-nav">
+				<a href="#skills">
+					<img src="images/icon_skills.png"/>
+					<p>Skills</p>
+				</a>
+			</div>
+			<hr>
+			<div id="contact-nav">
+				<a href="#contactForm">
+					<img src="images/icon_at.png"/>
+					<p>Contact</p>
+				</a>
+			</div>
+		</nav>
+
+		<div id="scrolling-body">
+
+
+			<article id="aboutMe">
+				<br>
+
+
+				<div id="about-me-opening">
+					<span>
+						<h1>About Me</h1>
+						<br>
+						<br>
+						<p class="about-me-body">
+							Hello! I'm Dhruv Modi, an undergraduate student at Penn State pursuing a degree in Enterprise Technology Integration at the College of Information Sciences and Technology. I look to use my interest and knowledge of technology to help make our lives easier and solve the many problems we face in the world.
+						</p>
+						<br>
+						<br>
+						<p class="about-me-body">
+							In my academic journey, I've touched base on different aspects of Information Technology, spanning from databases, networking, cybersecurity, and object-oriented developing. I do exceptionally well in team settings, where teamwork and creative thinking are crucial in completing an given task.
+						</p>
+					</span>
+					<img id="about-tech-drawing" src="images/About-Me-Tech-Drawing.png"/>
+				</div>
+				<br>
+				<br>
+				<p class="about-me-body">
+					Outside of the classroom, I look to apply the skills I've learned to areas where that knowledge can benefit others. Whether it's internships, projects, or extracurricular activites, I try my best to incorporate the strategies and skills I've learned in a controlled setting to an area where it can enhance a user's experience and make things easier.
+				</p>
+				<br>
+				<br>
+				<div id="profileQuote">
+					<span id="spacer-quote">
+					<br>
+					</span>
+					<span id="profile-quote-span">
+						<p id="about-me-quote">
+							Thank you for visiting my website. Feel free to explore my portfolio and reach out if you'd
+							like to connect or collaborate on any projects.
+						</p>
+						<br>
+					</span>
+					<img src="images/DMPSUheadshot.png" alt="___'s Profile">
+				</div>
+			</article>
+
+
+
+			<article id="educationAndExperience">
+				<hr class="article-dividers">
+
+				<h1>Experience</h1>
+				<br>
+
+				<div id="education-title">
+					<img src="images/icon_education.png" />
+					<span>
+						<h2>EDUCATION</h2>
+					</span>
+				</div>
+
+				<br>
+
+				<div id="university-education">
+					<span>
+						<h3>The Pennsylvania State University</h3>
+						<p id="uni-campus">Abington - University Park (2+2 Program)</p>
+						<p id="education-major">Bachelor of Science in Enterprise Technology Integration - Focus in Cybersecurity</p>
+					</span>
+					<img src="images/pennstate-seal.png"/>
+				</div>
+
+				<hr id="half-divider">
+				<br>
+
+				<div id="experience-title">
+					<img src="images/icon_experience_blue.png">
+					<span>
+						<h2>Experience</h2>
+					</span>
+				</div>
+
+				<br>
+
+				<div id="job-experiences">
+					<div id="job1">
+						<span>
+							<span class="time-frame"> June 2023 - Aug 2023 </span>
+							<p class="job-titles">IT Instructor Intern</p>
+							<p class="organization-name">Lavner Education</p>
+							<br>
+							<p class="job-description">
+								Organized, set up, and maintained devices used by students in the summer camp. Taught students the basics of multiple coding languages (Python, Java, and Scratch).
+							</p>
+						</span>
+						<img src="images/dmodi-lavner.png"> <! use lavner picture>
+					</div>
+
+					<div id="job2">
+						<span>
+							<span class="time-frame"> June 2022 - Jan 2023 </span>
+							<p class="job-titles">Data Managment Intern</p>
+							<p class="organization-name">Keystone Fire & Protection CO.</p>
+							<br>
+							<p class="job-description">
+								Maintain, update, and archive used and unused data from the main customer service system portal called Sedona. Import and organize 2 years' worth of EZPass transaction data for over 100 company owned vehicles in an easy to-access and search spreadsheet reporting format. Research over 200 parts inventory data and compile in one format to generate a timely usage and location report.
+							</p>
+						</span>
+						<img src="images/modi-keystone.png"> <! use keystone picture>
+					</div>
+
+				</div>
+				<br>
+				<br>
+
+				<h2 id="project-header">Notable Courses/Extracurricular Activities</h2>
+				<ul id="projects">
+					<li>
+						<p class="list-header">- Intermediate Object-Oriented Development</p>
+					</li>
+
+					<li>
+						<p class="list-header">- Networking and Telecommunications</p>
+					</li>
+
+					<li>
+						<p class="list-header">- Database Administration and Managment</p>
+					</li>
+
+					<li>
+						<p class="list-header">- Computer Systems Literacy</p>
+					</li>
+
+					<li>
+						<p class="list-header">- Cybersecurity and IT Student Association (CISA) - Academic Outreach Coordinator</p>
+					</li>
+
+					<li>
+						<p class="list-header">- Schreyer's Honors Scholar</p>
+					</li>
+
+				</ul>
+
+			</article>
+
+			<article id="portfolio-section">
+				<hr class="article-dividers">
+
+				<br>
+				<h1>Portfolio</h1>
+				<div id="portfolio-images">
+					<img src="images/portfolio-sample-images.png"/>
+					<img src="images/portfolio-sample-images.png"/>
+				</div>
+
+				<div id="links-row">
+					<span id="portfolio-links">Links</span>
+					<a href="https://www.linkedin.com/" target=”_blank”>
+						<img src="images/icon_linkd_darktan.png"/>
+					</a>
+					<a href="https://github.com/" target=”_blank”>
+						<img src="images/icon_githb_darktan.png"/>
+					</a>
+					<a href="https://www.youtube.com/" target=”_blank”>
+						<img src="images/icon_youtb_darktan.png"/>
+					</a>
+					<a href="https://twitter.com/home" target=”_blank”>
+						<img src="images/icon_twitr_darktan.png"/>
+					</a>
+				</div>
+			</article>
+
+			<article id="skills">
+				<hr class="article-dividers">
+				<h1>Skills</h1>
+
+				<br>
+				<div id="skills-container">
+					<div id="coding-section">
+						<div class="column-title">
+							<img src="images/icon_coding.png">
+							<span class="skills-titles">Coding</span>
+						</div>
+
+						<div id="code-section-body">
+							<p class="list-skills">Java</p>
+							<img src="images/skill4.png"/>
+							<p class="list-skills">JavaScript</p>
+							<img src="images/skill3.png"/>
+							<p class="list-skills">HTML & CSS</p>
+							<img src="images/skill4.png"/>
+							<p class="list-skills">SQL</p>
+							<img src="images/skill3.png"/>
+							<p class="list-skills">C++</p>
+							<img src="images/skill2.png"/>
+							<p class="list-skills">Python</p>
+							<img src="images/skill3.png"/>
+						</div>
+						<br>
+					</div>
+
+					<div id="knowledge-section">
+						<div class="column-title">
+							<img src="images/icon_knowledge.png">
+							<span class="skills-titles">Knowledge</span>
+						</div>
+						<div class="knowledge-list">
+							<img src="images/checkbox.png"/>
+							<span class="list-skills">Oracle APEX</span>
+						</div>
+						<div class="knowledge-list">
+							<img src="images/checkbox.png"/>
+							<span class="list-skills">Basic Oracle Database Administration</span>
+						</div>
+						<div class="knowledge-list">
+							<img src="images/checkbox.png"/>
+							<span class="list-skills">Basic Networking Configuration</span>
+						</div>
+						<div class="knowledge-list">
+							<img src="images/checkbox.png"/>
+							<span class="list-skills">Data Gathering and Encryption</span>
+						</div>
+						<div class="knowledge-list">
+							<img src="images/checkbox.png"/>
+							<span class="list-skills">Strong Teamwork and Collaboration Skills</span>
+						</div>
+					</div>
+				</div>
+
+
+			</article>
+
+			<article id="contactForm">
+				<hr class="article-dividers">
+				<h1>Contact Form</h1>
+
+				<form id="emailForm">
+
+					<div class="form-group" id="name-email">
+						<div class="inline-field" id="name-group">
+							<label for="fullName" class="form-labels">Full Name:</label>
+							<input type="text" id="fullName" name="fullName">
+						</div>
+						<div class="inline-field" id="email-group">
+							<label for="email" class="form-labels">Your Email:</label>
+							<input type="email" id="email" name="email">
+						</div>
+					</div>
+
+
+
+					<div class="form-group" id="subject-group">
+						<label for="subject" class="form-labels">Subject:</label>
+						<input type="text" id="subject" name="subject">
+					</div>
+
+					<div class="form-group" id="message-group">
+						<label for="message" class="form-labels">Your Message:</label>
+						<textarea id="message" name="message" rows="4" cols="50"></textarea>
+					</div>
+
+					<input type="submit" value="Send Email" id="submit">
+
+
+				</form>
+
+			</article>
+		</div>
+
+	</body>
+	
+</html>

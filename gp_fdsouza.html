@@ -1,0 +1,407 @@
+<!--
+	FILENAME		gp_template.HTML
+	AUTHOR			Group 6
+	DATE			03/26/2024
+	DESCRIPTION		This is a template HTML file marking the contents of a complete resume page.
+-->
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Group 6 Resumes</title>
+		<link href="styles/gp_reset.css" rel="stylesheet"/> <!-- CSS reset file. -->
+		<link href="styles/gp_styles.css" rel="stylesheet"/> <!-- CSS file for fonts, colors, etc. -->
+		<link href="layout/gp_layout.css" rel="stylesheet"/> <!-- CSS file for layout. -->
+		<script src="js/gp_script.js" async></script>
+
+		<!-- Adds font support-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+
+		<meta charset="utf-8" />
+		
+	</head>
+	
+	<body>
+		
+		<nav id="sidebar">
+			<a href="index.html"><img src="images/group-six-logo.png" id="logo"/></a>
+			<div id="profile">
+				<img src="images/generic-profile.png"/>
+				<p id = "name">Fyodor D'Souza</p>
+				<p id = "major">Information Science Technology</p>
+				<p id = "uni">The Pennsylvania State University</p>
+				
+			</div>
+			
+			<div id="socialMedia">
+				<a href="https://www.linkedin.com/in/fyodordsouza/" target=”_blank”><img src="images/icon_linkd.png"/></a>
+				<a href="https://github.com/" target=”_blank”><img src="images/icon_githb.png"/></a>
+				<a href="https://www.youtube.com/" target=”_blank”><img src="images/icon_youtb.png"/></a>
+				<a href="https://twitter.com/home" target=”_blank”><img src="images/icon_twitr.png"/></a>
+				
+			</div>
+			
+			<div id="contactInfo">
+				<ul>
+					<li class = "contact-info-label">Phone:</li>
+					<li class = "contact-info">(484) 862-5888 </li>
+					<li><br></li>
+					<li class = "contact-info-label">Email:</li>
+					<li class = "contact-info">fxd5119@psu.edu </li>
+					<li><br></li>
+					<li class = "contact-info-label">Location: </li>
+					<li class = "contact-info">Allentown, Pennsylvania </li>
+				</ul>
+			</div>
+
+			<hr id = "sidebar-divider">
+
+			<a class="resume-download" href="Resumes/Resume_FD.pdf"
+			   download = "SampleResume2024">Download Resume</a>
+		</nav>
+
+		<nav id="nav-sidebar">
+			<div id="about-nav">
+				<a href="#aboutMe">
+					<img src="images/icon_about.png"/>
+					<p>About Me</p>
+				</a>
+			</div>
+			<hr>
+			<div id="experience-nav">
+				<a href="#educationAndExperience">
+					<img src="images/icon_experience.png"/>
+					<p>Experience</p>
+				</a>
+			</div>
+			<hr>
+			<div id="portfolio-nav">
+				<a href="#portfolio-section">
+					<img src="images/icon_portfolio.png"/>
+					<p>Portfolio</p>
+				</a>
+			</div>
+			<hr>
+			<div id="skill-nav">
+				<a href="#skills">
+					<img src="images/icon_skills.png"/>
+					<p>Skills</p>
+				</a>
+			</div>
+			<hr>
+			<div id="contact-nav">
+				<a href="#contactForm">
+					<img src="images/icon_at.png"/>
+					<p>Contact</p>
+				</a>
+			</div>
+		</nav>
+
+		<div id="scrolling-body">
+
+
+			<article id="aboutMe">
+				<br>
+
+
+				<div id="about-me-opening">
+					<span>
+						<h1>About Me</h1>
+						<br>
+						<br>
+						<p class="about-me-body">
+							Hello! I'm Fyodor D'Souza, a passionate student at Penn State 								University pursuing a degree in
+							Information Science and Technology. With a keen interest in 								leveraging technology to solve
+							real-world problems, I'm dedicated to expanding my knowledge and 							skills in this dynamic field.
+						</p>
+						<br>
+						<br>
+						<p class="about-me-body">
+							Throughout my academic journey, I've delved into various aspects of information science and
+							technology, including database management, programming languages, cybersecurity, network design and user
+							experience design. I thrive in collaborative environments where creativity and critical thinking
+							are encouraged, and I'm always eager to tackle new challenges head-on.
+						</p>
+					</span>
+					<img id="about-tech-drawing" src="images/About-Me-Tech-Drawing.png"/>
+				</div>
+				<br>
+				<br>
+				<p class="about-me-body">
+					Outside of the classroom, I actively seek opportunities to apply my learning through internships,
+					projects, and extracurricular activities. Whether it's developing innovative software solutions,
+					conducting research to explore emerging technologies, or participating in hackathons to solve
+					complex problems, I'm constantly seeking ways to enhance my expertise and make a positive impact.
+				</p>
+				<br>
+				<br>
+				<p class="about-me-body">
+					Driven by a curiosity for how technology shapes our world, I am committed to continuous learning
+					and growth, striving to stay updated with the latest industry trends and advancements. I am excited
+					about the prospect of contributing my skills and enthusiasm to a dynamic team and making meaningful
+					contributions to the ever-evolving landscape of information science and technology.
+				</p>
+				<br>
+				<br>
+				<div id="profileQuote">
+					<span id="spacer-quote">
+					<br>
+					</span>
+					<span id="profile-quote-span">
+						<p id="about-me-quote">
+							Thank you for visiting my website. Feel free to explore my portfolio and reach out if you'd
+							like to connect or collaborate on any projects.
+						</p>
+						<br>
+					</span>
+					<img src="images/generic-profile-darktan.png" alt="___'s Profile">
+				</div>
+			</article>
+
+
+
+			<article id="educationAndExperience">
+				<hr class="article-dividers">
+
+				<h1>Experience</h1>
+				<br>
+
+				<div id="education-title">
+					<img src="images/icon_education.png" />
+					<span>
+						<h2>EDUCATION</h2>
+					</span>
+				</div>
+
+				<br>
+
+				<div id="university-education">
+					<span>
+						<h3>The Pennsylvania State University</h3>
+						<p id="uni-campus">Lehigh Valley</p>
+						<p id="education-major">Bachelor of Science in Enterprise Technology Integration - Business Focus</p>
+					</span>
+					<img src="images/pennstate-seal.png"/>
+				</div>
+
+				<hr id="half-divider">
+				<br>
+
+				<div id="experience-title">
+					<img src="images/icon_experience_blue.png">
+					<span>
+						<h2>Experience</h2>
+					</span>
+				</div>
+
+				<br>
+
+				<div id="job-experiences">
+					<div id="job1">
+						<span>
+							<span class="time-frame"> July 2019 - Present </span>
+							<p class="job-titles">Head Tennis Professional</p>
+							<p class="organization-name">Brookside Country Club</p>
+							<br>
+							<p class="job-description">
+								Teach a diverse clientele group during clinics and private 								lessons, ages ranging from 5 – 75 years
+								Manage client logbook and payment history
+								Coached an 18u program which placed second in PA, DE, and 								NJ</p>
+						</span>
+						<img src="images/fdsouza_job_logo_1.png">
+					</div>
+
+					<div id="job2">
+						<span>
+							<span class="time-frame"> June 2024 - August 2024 </span>
+							<p class="job-titles">Continuous Improvement Intern</p>
+							<p class="organization-name">Sharp Packaging Services</p>
+							<br>
+							<p class="job-description">
+								Data collection to enable problem solving, 
+								Analysis of data to look for trends, patterns or highest 								causes, Using that data and analysis to lead or help lead 								an improvement project or projects, Helping implement 									countermeasures, and Presenting, both formally and 									informally.
+							</p>
+						</span>
+						<img src="images/fdsouza_job_logo_2.png">
+					</div>
+
+				</div>
+				<br>
+				<br>
+
+				<h2 id="project-header">Project Experience</h2>
+				<ul id="projects">
+					<li>
+						<p class="list-header">Application Development - PSU Coursework</p>
+						<ul>
+							<li class="project-bulletpoints">Designed UML diagrams in order to plan and design projects.</li>
+
+							<li class="project-bulletpoints">Employ Object Oriented Programing ideas to develop a movie review application. </li>
+
+						</ul>
+
+					</li>
+
+					<li>
+						<p class="list-header">Networking and Telecommunications - PSU Coursework</p>
+						<ul>
+							<li class="project-bulletpoints">Understand network design concepts, employ them to accurately set up workstations, and troubleshoot connection issues.</li>
+
+							<li class="project-bulletpoints">Design and present a cumulative project outlining the use of Kubernetes in the movie theater industry.</li>
+
+						</ul>
+
+					</li>
+
+					<li>
+						<p class="list-header">Organization of Data & Database Management - PSU Coursework, Group Leader</p>
+						<ul>
+							<li class="project-bulletpoints">In omni morali systemate, quod hactenus occurrit, semper monui, Auctorem aliquandiu
+							ordinario modo ratiocinandi procedere, ac constituisse Deum esse, vel circa res humanas
+							animadversiones facere; ubi subito miror, quod pro vulgari copulationum propositionum est,
+							neque convenio propositioni non cohaerere cum debeat aut non debeat.</li>
+
+							<li class="project-bulletpoints">In omni morali systemate, quod hactenus occurrit, semper monui, Auctorem aliquandiu
+							ordinario modo ratiocinandi procedere, ac constituisse Deum esse, vel circa res humanas
+							animadversiones facere; ubi subito miror, quod pro vulgari copulationum propositionum est,
+							neque convenio propositioni non cohaerere cum debeat aut non debeat.</li>
+
+						</ul>
+
+					</li>
+
+				</ul>
+
+			</article>
+
+			<article id="portfolio-section">
+				<hr class="article-dividers">
+
+				<br>
+				<h1>Portfolio</h1>
+				<div id="portfolio-images">
+					<img src="images/portfolio-sample-images.png"/>
+					<img src="images/portfolio-sample-images.png"/>
+				</div>
+
+				<div id="links-row">
+					<span id="portfolio-links">Links</span>
+					<a href="https://www.linkedin.com/in/fyodordsouza/" target=”_blank”>
+						<img src="images/icon_linkd_darktan.png"/>
+					</a>
+					<a href="https://github.com/" target=”_blank”>
+						<img src="images/icon_githb_darktan.png"/>
+					</a>
+					<a href="https://www.youtube.com/" target=”_blank”>
+						<img src="images/icon_youtb_darktan.png"/>
+					</a>
+					<a href="https://twitter.com/home" target=”_blank”>
+						<img src="images/icon_twitr_darktan.png"/>
+					</a>
+				</div>
+			</article>
+
+			<article id="skills">
+				<hr class="article-dividers">
+				<h1>Skills</h1>
+
+				<br>
+				<div id="skills-container">
+					<div id="coding-section">
+						<div class="column-title">
+							<img src="images/icon_coding.png">
+							<span class="skills-titles">Coding</span>
+						</div>
+
+						<div id="code-section-body">
+							<p class="list-skills">Java</p>
+							<img src="images/skill4.png"/>
+							<p class="list-skills">JavaScript</p>
+							<img src="images/skill3.png"/>
+							<p class="list-skills">HTML & CSS</p>
+							<img src="images/skill4.png"/>
+							<p class="list-skills">SQL</p>
+							<img src="images/skill3.png"/>
+							<p class="list-skills">C++</p>
+							<img src="images/skill2.png"/>
+							<p class="list-skills">Python</p>
+							<img src="images/skill3.png"/>
+						</div>
+						<br>
+					</div>
+
+					<div id="knowledge-section">
+						<div class="column-title">
+							<img src="images/icon_knowledge.png">
+							<span class="skills-titles">Knowledge</span>
+						</div>
+						<div class="knowledge-list">
+							<img src="images/checkbox.png"/>
+							<span class="list-skills">Unified Modeling Language</span>
+						</div>
+						<div class="knowledge-list">
+							<img src="images/checkbox.png"/>
+							<span class="list-skills">Project Planning (MS Project)</span>
+						</div>
+						<div class="knowledge-list">
+							<img src="images/checkbox.png"/>
+							<span class="list-skills">Entity Relationship Diagramming</span>
+						</div>
+						<div class="knowledge-list">
+							<img src="images/checkbox.png"/>
+							<span class="list-skills">Risk Analysis</span>
+						</div>
+						<div class="knowledge-list">
+							<img src="images/checkbox.png"/>
+							<span class="list-skills">UX Design</span>
+						</div>
+					</div>
+				</div>
+
+
+
+			</article>
+
+			<article id="contactForm">
+				<hr class="article-dividers">
+				<h1>Contact Form</h1>
+
+				<form id="emailForm">
+
+					<div class="form-group" id="name-email">
+						<div class="inline-field" id="name-group">
+							<label for="fullName" class="form-labels">Full Name:</label>
+							<input type="text" id="fullName" name="fullName">
+						</div>
+						<div class="inline-field" id="email-group">
+							<label for="email" class="form-labels">Your Email:</label>
+							<input type="email" id="email" name="email">
+						</div>
+					</div>
+
+
+
+					<div class="form-group" id="subject-group">
+						<label for="subject" class="form-labels">Subject:</label>
+						<input type="text" id="subject" name="subject">
+					</div>
+
+					<div class="form-group" id="message-group">
+						<label for="message" class="form-labels">Your Message:</label>
+						<textarea id="message" name="message" rows="4" cols="50"></textarea>
+					</div>
+
+					<input type="submit" value="Send Email" id="submit">
+
+
+				</form>
+
+			</article>
+		</div>
+
+	</body>
+	
+</html>
