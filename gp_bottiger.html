@@ -1,0 +1,316 @@
+<!--
+	FILENAME		gp_template.HTML
+	AUTHOR			Group 6
+	DATE			03/26/2024
+	DESCRIPTION		This is a template HTML file marking the contents of a complete resume page.
+-->
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Group 6 Resumes</title>
+		<link href="styles/gp_reset.css" rel="stylesheet"/> <!-- CSS reset file. -->
+		<link href="styles/gp_styles.css" rel="stylesheet"/> <!-- CSS file for fonts, colors, etc. -->
+		<link href="layout/gp_layout.css" rel="stylesheet"/> <!-- CSS file for layout. -->
+		<script src="js/gp_script.js"></script>
+
+		<!-- Adds font support-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+
+		<meta charset="utf-8" />
+		
+	</head>
+	
+	<body>
+		
+		<nav id="sidebar">
+
+			<a href="index.html"><img src="images/group-six-logo.png" id="logo"/></a>
+			<div id="profile">
+				<img src="images/generic-profile.png"/>
+				<p id = "name">August Bottiger</p>
+				<p id = "major">Information Science Technology</p>
+				<p id = "uni">Pennsylvania State University</p>
+				
+			</div>
+			
+			<div id="socialMedia">
+				<a href="https://www.linkedin.com/" target=”_blank”><img src="images/icon_linkd.png"/></a>
+				<a href="https://github.com/" target=”_blank”><img src="images/icon_githb.png"/></a>
+				<a href="https://www.youtube.com/" target=”_blank”><img src="images/icon_youtb.png"/></a>
+				<a href="https://twitter.com/home" target=”_blank”><img src="images/icon_twitr.png"/></a>
+				
+			</div>
+			
+			<div id="contactInfo">
+				<ul>
+					<li class = "contact-info-label">Phone:</li>
+					<li class = "contact-info">(484) 634-6681 </li>
+					<li><br></li>
+					<li class = "contact-info-label">Email:</li>
+					<li class = "contact-info">bottigeraugust@gmail.com </li>
+					<li><br></li>
+					<li class = "contact-info-label">Location: </li>
+					<li class = "contact-info">East Greenville, Pennsylvania </li>
+				</ul>
+			</div>
+
+			<hr id = "sidebar-divider">
+
+			<a class="resume-download" href="Resumes/bottiger-resume.pdf"
+			   download = "Resume.pdf">Download Resume</a>
+		</nav>
+
+		<nav id="nav-sidebar">
+			<div id="about-nav">
+				<a href="#aboutMe">
+					<img src="images/icon_about.png"/>
+					<p>About Me</p>
+				</a>
+			</div>
+			<hr>
+			<div id="experience-nav">
+				<a href="#educationAndExperience">
+					<img src="images/icon_experience.png"/>
+					<p>Experience</p>
+				</a>
+			</div>
+			<hr>
+			<div id="portfolio-nav">
+				<a href="#portfolio-section">
+					<img src="images/icon_portfolio.png"/>
+					<p>Portfolio</p>
+				</a>
+			</div>
+			<hr>
+			<div id="skill-nav">
+				<a href="#skills">
+					<img src="images/icon_skills.png"/>
+					<p>Skills</p>
+				</a>
+			</div>
+			<hr>
+			<div id="contact-nav">
+				<a href="#contactForm">
+					<img src="images/icon_at.png"/>
+					<p>Contact</p>
+				</a>
+			</div>
+		</nav>
+
+		<div id="scrolling-body">
+
+
+			<article id="aboutMe">
+				<br>
+				<h1>About Me</h1>
+				<br>
+
+				<div id="about-me-opening">
+					<span>
+						<p class="about-me-body">
+							My name is August Bottiger, a student currently attending Penn State University. I'm pursuing a degree in Information Technology for Application Development. I have an eye for detail and a mind suited to deal with complicated logic, and I wish to become proficient enough at coding to make a career out of it.
+						</p>
+						<br>
+						<p class="about-me-body">
+							Throughout my time in high school and college, I have learned quite a few things about IST, including the following topics; database management, the Java programming language, HTML and CSS design, and Security and Risk Analysis. I prefer to work by myself without being interrupted, although I am capable of working with a team and collaborate. I thrive in environments that require problem-solving and detail-oriented thinking.
+						</p>
+					</span>
+					<img id="about-tech-drawing" src="images/About-Me-Tech-Drawing.png"/>
+				</div>
+				<br>
+				<p class="about-me-body">
+					On my personal time, I often research topics I'm heavily interested in and try to learn as much as I can about it. While I've rarely participated in extracurricular activities regarding programming, I would gladly start attending these activities as long as the environment is not hostile towards my senses. I wish to become adept at programming, to the point where I don't  need to reference other sources unless it's a topic I'm not familiar with.
+				</p>
+				<br>
+				<p class="about-me-body">
+					I'm driven by an urge to solve problems of all forms, ranging from technological to even emotional or social. I love the idea of being able to have a career in a topic I'm genuinely interested in, essentially being paid to do something I enjoy doing instead of menial work.
+				</p>
+				<br>
+				<br>
+				<div id="profileQuote">
+					<span id="spacer-quote">
+					<br>
+					</span>
+					<span id="profile-quote-span">
+						<p id="about-me-quote">
+							Thank you for visiting my website. Feel free to explore my portfolio and reach out if you'd
+							like to connect or collaborate on any projects.
+						</p>
+						<br>
+					</span>
+					<img src="images/generic-profile-darktan.png" alt="August's Profile"/>
+				</div>
+
+			</article>
+
+			<article id="educationAndExperience">
+				<hr class="article-dividers">
+
+				<h1>Experience</h1>
+				<br>
+
+				<div id="education-title">
+					<img src="images/icon_education.png" />
+					<span>
+						<h2>EDUCATION</h2>
+					</span>
+				</div>
+
+				<br>
+
+				<div id="university-education">
+					<span>
+						<h3>The Pennsylvania State University</h3>
+						<p id="uni-campus">Lehigh Valley</p>
+						<p id="education-major">Bachelor of Science in Information Technology - Application Development</p>
+					</span>
+					<img src="images/pennstate-seal.png"/>
+				</div>
+
+				<hr id="half-divider">
+				<br>
+
+				<h2 id="project-header">Notable Courses/Extracurricular Activities</h2>
+				<ul id="projects">
+					<li>
+						<p class="list-header">- Object-Oriented Development</p>
+					</li>
+
+					<li>
+						<p class="list-header">- Networking and Telecommunications</p>
+					</li>
+
+					<li>
+						<p class="list-header">- Database Administration and Managment</p>
+					</li>
+
+					<li>
+						<p class="list-header">- Computer Systems Literacy</p>
+					</li>
+
+				</ul>
+
+			</article>
+
+			<article id="portfolio-section">
+				<hr class="article-dividers">
+
+				<br>
+				<h1>Portfolio</h1>
+				<div id="portfolio-images">
+					<img src="images/portfolio-sample-images.png"/>
+					<img src="images/portfolio-sample-images.png"/>
+				</div>
+
+				<div id="links-row">
+					<span id="portfolio-links">Links</span>
+					<a href="https://www.linkedin.com/" target=”_blank”>
+						<img src="images/icon_linkd_darktan.png"/>
+					</a>
+					<a href="https://github.com/" target=”_blank”>
+						<img src="images/icon_githb_darktan.png"/>
+					</a>
+					<a href="https://www.youtube.com/" target=”_blank”>
+						<img src="images/icon_youtb_darktan.png"/>
+					</a>
+					<a href="https://twitter.com/home" target=”_blank”>
+						<img src="images/icon_twitr_darktan.png"/>
+					</a>
+				</div>
+			</article>
+
+			<article id="skills">
+				<hr class="article-dividers">
+				<h1>Skills</h1>
+
+				<br>
+				<div id="skills-container">
+					<div id="coding-section">
+						<div class="column-title">
+							<img src="images/icon_coding.png">
+							<span class="skills-titles">Coding</span>
+						</div>
+
+						<div id="code-section-body">
+							<p class="list-skills">Java</p>
+							<img src="images/skill3.png"/>
+							<p class="list-skills">JavaScript</p>
+							<img src="images/skill2.png"/>
+							<p class="list-skills">HTML & CSS</p>
+							<img src="images/skill2.png"/>
+							<p class="list-skills">SQL</p>
+							<img src="images/skill4.png"/>
+						</div>
+						<br>
+					</div>
+
+					<div id="knowledge-section">
+						<div class="column-title">
+							<img src="images/icon_knowledge.png">
+							<span class="skills-titles">Knowledge</span>
+						</div>
+						<div class="knowledge-list">
+							<img src="images/checkbox.png"/>
+							<span class="list-skills">Oracle API</span>
+						</div>
+						<div class="knowledge-list">
+							<img src="images/checkbox.png"/>
+							<span class="list-skills">Basic Networking Configuration</span>
+						</div>
+						<div class="knowledge-list">
+							<img src="images/checkbox.png"/>
+							<span class="list-skills">Data Gathering and Encryption</span>
+						</div>
+						<div class="knowledge-list">
+							<img src="images/checkbox.png"/>
+							<span class="list-skills">Strong Attention to Detail</span>
+						</div>
+					</div>
+				</div>
+
+			</article>
+
+			<article id="contactForm">
+				<hr class="article-dividers">
+				<h1>Contact Form</h1>
+
+				<form id="emailForm">
+
+					<div class="form-group" id="name-email">
+						<div class="inline-field" id="name-group">
+							<label for="fullName" class="form-labels">Full Name:</label>
+							<input type="text" id="fullName" name="fullName">
+						</div>
+						<div class="inline-field" id="email-group">
+							<label for="email" class="form-labels">Your Email:</label>
+							<input type="email" id="email" name="email">
+						</div>
+					</div>
+
+
+
+					<div class="form-group" id="subject-group">
+						<label for="subject" class="form-labels">Subject:</label>
+						<input type="text" id="subject" name="subject">
+					</div>
+
+					<div class="form-group" id="message-group">
+						<label for="message" class="form-labels">Your Message:</label>
+						<textarea id="message" name="message" rows="4" cols="50"></textarea>
+					</div>
+
+					<input type="submit" value="Send Email" id="submit">
+
+
+				</form>
+
+			</article>
+		</div>
+		
+	</body>
+	
+</html>
