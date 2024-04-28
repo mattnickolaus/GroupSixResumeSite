@@ -1,0 +1,370 @@
+<!--
+	FILENAME		gp_template.HTML
+	AUTHOR			Group 6
+	DATE			03/26/2024
+	DESCRIPTION		This is a template HTML file marking the contents of a complete resume page.
+-->
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Group 6 Resumes</title>
+		<link href="styles/gp_reset.css" rel="stylesheet"/> <!-- CSS reset file. -->
+		<link href="styles/gp_styles.css" rel="stylesheet"/> <!-- CSS file for fonts, colors, etc. -->
+		<link href="layout/gp_layout.css" rel="stylesheet"/> <!-- CSS file for layout. -->
+		<script src="js/gp_script.js" async></script>
+
+		<!-- Adds font support-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+
+		<meta charset="utf-8" />
+
+	</head>
+	
+	<body>
+		
+		<nav id="sidebar">
+			<a href="index.html"><img src="images/group-six-logo.png" id="logo"/></a>
+			<div id="profile">
+				<img src="images/JonahYaniak_headshot.png"/>
+				<p id = "name">Jonah Yaniak</p>
+				<p id = "major">Cybersecurity Analytics and Operations</p>
+				<p id = "uni">The Pennsylvania State University</p>
+				
+			</div>
+			
+			<div id="socialMedia">
+				<a href="https://www.linkedin.com/" target=”_blank”><img src="images/icon_linkd.png"/></a>
+				<a href="https://github.com/" target=”_blank”><img src="images/icon_githb.png"/></a>
+				<a href="https://www.youtube.com/" target=”_blank”><img src="images/icon_youtb.png"/></a>
+				<a href="https://twitter.com/home" target=”_blank”><img src="images/icon_twitr.png"/></a>
+				
+			</div>
+			
+			<div id="contactInfo">
+				<ul>
+					<li class = "contact-info-label">Phone:</li>
+					<li class = "contact-info"><a href="tel:4845543298">(484) 554-3298</a></li>
+					<li><br></li>
+					<li class = "contact-info-label">Email:</li>
+					<li class = "contact-info"><a href="mailto:jonahyaniak@gmail.com">jonahyaniak@gmail.com</a></li>
+					<li><br></li>
+					<li class = "contact-info-label">Location: </li>
+					<li class = "contact-info">Bethlehem, Pennsylvania</li>
+				</ul>
+			</div>
+
+			<hr id = "sidebar-divider">
+
+			<a class="resume-download" href="Resumes/yaniak_resume.pdf"
+			   download = "SampleResume2024">Download Resume</a>
+		</nav>
+
+		<nav id="nav-sidebar">
+			<div id="about-nav">
+				<a href="#aboutMe">
+					<img src="images/icon_about.png"/>
+					<p>About Me</p>
+				</a>
+			</div>
+			<hr>
+			<div id="experience-nav">
+				<a href="#educationAndExperience">
+					<img src="images/icon_experience.png"/>
+					<p>Experience</p>
+				</a>
+			</div>
+			<hr>
+			<div id="portfolio-nav">
+				<a href="#portfolio-section">
+					<img src="images/icon_portfolio.png"/>
+					<p>Portfolio</p>
+				</a>
+			</div>
+			<hr>
+			<div id="skill-nav">
+				<a href="#skills">
+					<img src="images/icon_skills.png"/>
+					<p>Skills</p>
+				</a>
+			</div>
+			<hr>
+			<div id="contact-nav">
+				<a href="#contactForm">
+					<img src="images/icon_at.png"/>
+					<p>Contact</p>
+				</a>
+			</div>
+		</nav>
+
+		<div id="scrolling-body">
+
+
+			<article id="aboutMe">
+				<br>
+
+
+				<div id="about-me-opening">
+					<span>
+						<h1>About Me</h1>
+						<br>
+						<br>
+						<p class="about-me-body">
+							Call me Jonah! I'm a third-year computer science student looking to make a career in 
+							the field of cybersecurity. I was born in 2002, attended Liberty Highschool, and went 
+							to my first two years of secondary education at Northampton Area Community College before 
+							transferring to Penn State Lehigh Valley.
+						</p>
+					</span>
+					<img id="about-tech-drawing" src="images/About-Me-Tech-Drawing.png"/>
+				</div>
+				
+				<br><br>
+				<p class="about-me-body">
+					My passion is for manipulating abstractions. Every problem is a puzzle, and the world of programming 
+					and mathematics abounds with opportunities for elegant solutions. When I'm not crunching for classes, 
+					I enjoy working on personal programming projects or woodworking. I've always loved videogames, and I 
+					aspire to put together and release a project as a hobbyist someday. I have some experience in making 
+					digital assets like textures and 3D models from my days as a young Minecraft texture pack maker. I even 
+					made a little money in commissions for my work.
+					I dabble in a few other hobbies as well. I've tried longsword fencing, and play tabletop RPGs when I 
+					have time. I also have an overriding fascination with philosophy, and the ways in which it can be 
+					expressed across all manner of disciplines.
+				</p>
+				<br> <br>
+				<div id="profileQuote">
+					<span id="spacer-quote">
+					<br>
+					</span>
+					<span id="profile-quote-span">
+						<p id="about-me-quote">
+							Thank you for looking at my page! Feel free to contact me using the information in the sidebar, 
+							or using the contact form at the bottom of this page.
+						</p>
+						<br>
+					</span>
+					<img src="images/JonahYaniak_headshot.png">
+				</div>
+			</article>
+
+
+
+			<article id="educationAndExperience">
+				<hr class="article-dividers">
+
+				<h1>Experience</h1>
+				<br>
+
+				<div id="education-title">
+					<img src="images/icon_education.png" />
+					<span>
+						<h2>EDUCATION</h2>
+					</span>
+				</div>
+
+				<br>
+
+				<div id="university-education">
+					<span>
+						<h3>The Pennsylvania State University</h3>
+						<p id="uni-campus">Lehigh Valley</p>
+						<p id="education-major">Cybersecurity Analytics and Operations.</p>
+					</span>
+					<img src="images/pennstate-seal.png"/>
+				</div>
+
+				<hr id="half-divider">
+				<br>
+
+				<div id="experience-title">
+					<img src="images/icon_experience_blue.png">
+					<span>
+						<h2>Experience</h2>
+					</span>
+				</div>
+
+				<br>
+
+				<div id="job-experiences">
+					<div id="job1">
+						<span>
+							<span class="time-frame"> June 2021 - July 2021 </span>
+							<p class="job-titles">Assistant Carpenter</p>
+							<p class="organization-name">Finestkind Woodworking</p>
+							<br>
+							<p class="job-description">
+								I worked for a time in construction carpentry in Maine with my uncle, building a home addition 
+								for a customer. It takes just as much mathematical know-how to frame a building as it does to 
+								program computers, in my opinion. It was a unique combination of planning and physical execution 
+								that I was grateful to experience right out of highschool.
+							</p>
+						</span>
+					</div>
+
+					<div id="job2">
+						<span>
+							<span class="time-frame"> March 2022 - Present </span>
+							<p class="job-titles">Customer Service Assoc.</p>
+							<p class="organization-name">Lowes' Home Centers, LLC.</p>
+							<br>
+							<p class="job-description">
+								My present position is at my town's Lowes' Home Center, where I work in the tools and hardware department. 
+								Working on the floor, I have to interact with a lot of technology designed to streamline the store's operations - 
+								Being inventory management, automating the assignment of tasks, credit applications from customers, and order 
+								fulfillment, among other things. I value this experience for the perspective it gives me on how businesses use 
+								information systems, in what ways they need to be secured, and the ways in which the experience might be improved 
+								for the user.
+							</p>
+						</span>
+					</div>
+
+				</div>
+				<br>
+				<br>
+
+				<h2 id="project-header">Project Experience</h2>
+				<ul id="projects">
+					<li>
+						<p class="list-header">Relational Database design - PSU Coursework, Group Member</p>
+						<ul>
+							<li class="project-bulletpoints">Designed an ERD to the specifications of an imaginary 
+							business.</li>
+
+							<li class="project-bulletpoints">Wrote SQL instructions to build a complex relational 
+							database.</li>
+
+						</ul>
+
+					</li>
+
+				</ul>
+
+			</article>
+
+			<article id="portfolio-section">
+				<hr class="article-dividers">
+
+				<br>
+				<h1>Portfolio</h1>
+				<div id="portfolio-images">
+					<img src="images/portfolio-sample-images.png"/>
+					<img src="images/portfolio-sample-images.png"/>
+				</div>
+
+				<div id="links-row">
+					<span id="portfolio-links">Links</span>
+					<a href="https://www.linkedin.com/" target=”_blank”>
+						<img src="images/icon_linkd_darktan.png"/>
+					</a>
+					<a href="https://github.com/" target=”_blank”>
+						<img src="images/icon_githb_darktan.png"/>
+					</a>
+					<a href="https://www.youtube.com/" target=”_blank”>
+						<img src="images/icon_youtb_darktan.png"/>
+					</a>
+					<a href="https://twitter.com/home" target=”_blank”>
+						<img src="images/icon_twitr_darktan.png"/>
+					</a>
+				</div>
+			</article>
+
+			<article id="skills">
+				<hr class="article-dividers">
+				<h1>Skills</h1>
+
+				<br>
+				<div id="skills-container">
+					<div id="coding-section">
+						<div class="column-title">
+							<img src="images/icon_coding.png">
+							<span class="skills-titles">Programming</span>
+						</div>
+
+						<div id="code-section-body">
+							<p class="list-skills">C++</p>
+							<img src="images/skill4.png"/>
+							<p class="list-skills">Python</p>
+							<img src="images/skill4.png"/>
+							<p class="list-skills">Java</p>
+							<img src="images/skill3.png"/>
+							<p class="list-skills">Assembly Language</p>
+							<img src="images/skill2.png"/>
+							<p class="list-skills">Structured Query Language</p>
+							<img src="images/skill3.png"/>
+							<p class="list-skills">Hypertext Markup Language/CSS</p>
+							<img src="images/skill4.png"/>
+						</div>
+						<br>
+					</div>
+
+					<div id="knowledge-section">
+						<div class="column-title">
+							<img src="images/icon_knowledge.png">
+							<span class="skills-titles">Knowledge</span>
+						</div>
+						<div class="knowledge-list">
+							<img src="images/checkbox.png"/>
+							<span class="list-skills">Hispanohablante.</span>
+						</div>
+						<div class="knowledge-list">
+							<img src="images/checkbox.png"/>
+							<span class="list-skills">Relational database design.</span>
+						</div>
+						<div class="knowledge-list">
+							<img src="images/checkbox.png"/>
+							<span class="list-skills">Construction and Small-project Carpentry.</span>
+						</div>
+						<div class="knowledge-list">
+							<img src="images/checkbox.png"/>
+							<span class="list-skills">That I know nothing.</span>
+						</div>
+						<div class="knowledge-list">
+							<img src="images/checkbox.png"/>
+							<span class="list-skills">That I know nothing.</span>
+						</div>
+					</div>
+				</div>
+
+
+			</article>
+
+			<article id="contactForm">
+				<hr class="article-dividers">
+				<h1>Contact Form</h1>
+
+				<form id="emailForm">
+
+					<div class="form-group" id="name-email">
+						<div class="inline-field" id="name-group">
+							<label for="fullName" class="form-labels">Full Name:</label>
+							<input type="text" id="fullName" name="fullName">
+						</div>
+						<div class="inline-field" id="email-group">
+							<label for="email" class="form-labels">Your Email:</label>
+							<input type="email" id="email" name="email">
+						</div>
+					</div>
+
+					<div class="form-group" id="subject-group">
+						<label for="subject" class="form-labels">Subject:</label>
+						<input type="text" id="subject" name="subject">
+					</div>
+
+					<div class="form-group" id="message-group">
+						<label for="message" class="form-labels">Your Message:</label>
+						<textarea id="message" name="message" rows="4" cols="50"></textarea>
+					</div>
+
+					<input type="submit" value="Send Email" id="submit">
+					
+				</form>
+
+			</article>
+		</div>
+
+	</body>
+	
+</html>
